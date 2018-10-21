@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio Site - D</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  
+  {{--  custom css styles  --}}
+  <link rel="stylesheet" href="/css/__normalize.css">
+  <link rel="stylesheet" href="/vendor/bootstrap/bootstrap-grid.css">
+  <link rel="stylesheet" href="/css/style.min.css">
+</head>
+<body>
+
+  {{--  NAVBAR  --}}
+  {{--  =====================================================  --}}
+
+  <nav>
+    <div class="container">
+      <ul class="main">
+        <li><a href="#home">Logo</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+ {{--  HOME SECTION - landing page and jumbotron  --}}
+ {{--  =====================================================  --}}
+<header id="home" class="section">
+    @include('01_landing')
+    <h1>hahaha</h1>
+    <p>sadasd</p>
+</header>
+
+{{--  About ME SECTION - short description of myselg and  CV  --}}
+ {{--  =====================================================  --}}
+<div id="about" class="section">
+    @include('02_about')
+</div>
+
+{{--  TESTIMONIALS SECTION - few testimonials with OWl.js  --}}
+ {{--  =====================================================  --}}
+<div id="testimonials" class="section"></div>
+
+{{--  PORTFOLIO SECTION -my work --}}
+ {{--  =====================================================  --}}
+<div id="portfolio" class="section"></div>
+
+{{--  CONTACT SECTION - contact form with some info  --}}
+ {{--  =====================================================  --}}
+<div id="contact" class="section"></div>
+
+
+<footer>
+
+</footer>
+ 
+  {{--  scripts  --}}
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
