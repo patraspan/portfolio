@@ -10,7 +10,7 @@
     "express": "^4.16.4",
     "express-edge": "^1.0.0",
     "express-livereload": "0.0.24",
-    "jquery": "^3.3.1"
+    "jquery": "^3.6.0"
   },
   "devDependencies": {
     "browser-refresh": "^1.7.3",
